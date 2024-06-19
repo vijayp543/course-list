@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  /* justify-content: center; */
+  padding: 2rem;
+}
+
+.course-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;  /* Ensures items start from the left */
+}
+
+
+
+
+
+/* justify-content: center; */
+  /* grid-column-start: left; */
