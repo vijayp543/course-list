@@ -1,4 +1,4 @@
-/* old one */
+
 .course-card {
     max-width: 20rem;
     border-radius: 0.5rem;
@@ -9,12 +9,13 @@
     padding-top: 25px;
     padding-bottom: 0px;
     height: 350px;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    transition: background-color 0.3s, color 0.3s; 
+
   }
   
   .course-card:hover {
-    background-color: #001f3f; /* Dark blue background on hover */
-    color: white; /* White text on hover */
+    background-color: #001f3f; 
+    color: white; 
   }
   
   .course-card .image-container {
@@ -31,17 +32,17 @@
     position: absolute;
     top: -0.7rem;
     left: 0rem;
-     background-color: #19397e ;     /* */
+    background-color: #19397e ;    
     color: white;
     font-size: 0.75rem;
     font-weight: bold;
     padding: 0.75rem 0.35rem;
     border-radius: 0.25rem;
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    transition: background-color 0.3s; 
   }
   
   .course-card:hover .badge {
-    background-color: #001f3f; /* Dark blue background on hover */
+    background-color: #001f3f; 
   }
   
   .course-card .content {
@@ -53,17 +54,17 @@
     font-weight: bold;
     margin-bottom: 0.5rem;
     color: #18181b;
-    transition: color 0.3s; /* Smooth transition for hover effect */
+    transition: color 0.3s; 
   }
   
   .course-card .content .description {
     color: #52525b;
-    transition: color 0.3s; /* Smooth transition for hover effect */
+    transition: color 0.3s;
   }
   
   /* Hover effect for both badge and card simultaneously */
   .course-card:hover .content .title,
   .course-card:hover .content .description {
-    color: white; /* White text on hover */
+    color: white; 
   }
   

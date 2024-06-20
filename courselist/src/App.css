@@ -1,6 +1,6 @@
 .app {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   padding: 2rem;
 }
 
@@ -8,12 +8,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  justify-content: flex-start;  /* Ensures items start from the left */
+  justify-content: flex-start;  
 }
 
 
 
 
-
-/* justify-content: center; */
-  /* grid-column-start: left; */
